@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	padding: 0;
+	background:hotpink;
+}
+.main{
+	margin:40px 150px;
+	border:1px solid white;
+	display:grid;
+	justify-content: center;
+}
+.imagePrin img{
+     height:450px;
+     justify-self: center;
+}
+.main .others{
+	 display: flex;
+	 height: 180px;
+	 justify-content: space-around;
+}
+.main .others img{
+	 border-radius:25px;
+	 /*opacity:0.5;*/
+	 border: 2px solid white;
+	 margin: 10px 12px;
+	 cursor: pointer;
+}
